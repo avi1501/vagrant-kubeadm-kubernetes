@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple
+spec:
+  containers:
+  - name: alpine
+    image: alpine:3.11
+    imagePullPolicy: IfNotPresent
+    command: ['sh', '-c', 'echo Pod running; sleep 7200']
