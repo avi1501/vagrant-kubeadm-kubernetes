@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: basic
+spec:
+  containers:
+  - name: busybox
+    image: busybox:1.31
+    imagePullPolicy: IfNotPresent
+    command: ['sh', '-c', 'echo Pod running; sleep 7200']
