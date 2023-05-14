@@ -17,7 +17,7 @@ wget https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-
 # add --iface-eth1 in last container 
     # args:
     #     - --ip-masq
-    #     - -- kube-subnet-mgr
+    #     - --kube-subnet-mgr
     #     - --iface=eth1
 
 # kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml

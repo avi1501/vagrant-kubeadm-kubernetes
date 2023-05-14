@@ -14,6 +14,6 @@ sudo systemctl start kubelet
 
 # paste this in /etc/hosts file for dns resolution locally 
 
-# 100.0.0.1 master.jhooq.com master
-# 100.0.0.2 worker1.jhooq.com worker1
-# 100.0.0.3 worker2.jhooq.com worker2
+# 100.0.0.1 master.example.com master
+# 100.0.0.2 worker1.example.com worker1
+# 100.0.0.3 worker2.example.com worker2
